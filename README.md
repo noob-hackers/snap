@@ -80,7 +80,7 @@ __Exit__ :
 <img src="https://user-images.githubusercontent.com/49580304/67765179-828c6c00-fa71-11e9-8726-0810de57dc23.jpg" width="80%"></img>
 
 ## 📌 ***Full video tutorial***:
-
+[![snap tool](https://img.youtube.com/vi/BBBfhryUgds/0.jpg)](https://youtu.be/BBBfhryUgds)
 ## 🔗 ***Check this***
 
 ### Subscribe our channel on youtube:

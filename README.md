@@ -67,7 +67,7 @@ $ bash snap.sh
 __Termux Backup__ :
 - From this option you can backup all the tools and default bash terminal script into your internal stoarge without any issue and you can restore it at any time.
 
-__Termuc Restore__ :
+__Termux Restore__ :
 - From this option you can restore the backup tools of termux and default terminal as it was first.
 
 __Update script__ :

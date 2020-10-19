@@ -32,7 +32,7 @@ echo '
 echo 
 
 echo -e "$red                      ▶ Coded by$grn N17RO$red ◀$rset"
-echo -e "$red                 ⫸$ylo youtube.com/noobhackers$red ⫷$rset"
+echo -e "$red                 ⫸$ylo YOUTUBE- Noob Hackers$red ⫷$rset"
 echo 
 # Functions
 echo -e "$red              [NOTE:- NEED INTERNET CONNECTION]$rset"
@@ -43,7 +43,7 @@ echo " "
 echo " "
 echo -e "$red                        ➡$cyan [1️⃣] Termux backup"
 echo -e "$red                        ➡$cyan [2️⃣] Termux restore"
-echo -e "$red                        ➡️$cyan [3️⃣] Update script"
+echo -e "$red                        ➡$cyan [3️⃣] Update script"
 echo -e "$red                        ➡$cyan [4️⃣] Exit"
 echo " "
 echo " "

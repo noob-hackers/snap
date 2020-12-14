@@ -51,14 +51,13 @@ cp bash.bashrc $HOME
 cd $HOME
 cd snap
 cd bars
-mv bcp.sh noobhackers.sh $HOME
 cd $HOME
 mkdir snapbackup
-cp -r * snapbackup
+cp -rf * snapbackup
 cd snapbackup
 rm -rf snapbackup
 cd $HOME
-rm bcp.sh noobhackers.sh bash.bashrc
+rm  bash.bashrc
 cd $HOME
 mv snapbackup /sdcard
 cd sdcard/snapbackup

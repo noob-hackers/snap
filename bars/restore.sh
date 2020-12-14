@@ -38,18 +38,13 @@ cd /sdcard
 mv snapbackup $HOME
 cd $HOME
 cd snapbackup
-mv * $HOME
+mv -rf * $HOME
 cd $HOME
 mv bash.bashrc /data/data/com.termux/files/usr/etc
 cd $HOME
 rm -rf snapbackup
 cd $HOME
-bash noobhackers.sh
 sleep 2.0
-bash bcp.sh
-sleep 2.0
-rm bcp.sh
-rm noobhackers.sh
 echo
 echo 
 echo -e "              $grn Restoring Completed sir........$rset"

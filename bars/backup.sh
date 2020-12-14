@@ -44,6 +44,7 @@ cd snap
 bash snap.sh
 else
 cd $HOME
+rm -rf storage
 cd ..
 cd usr
 cd etc
@@ -62,7 +63,7 @@ cd $HOME
 rm bash.bashrc
 rm -rf toss
 cd sdcard/snapbackup
-rm -rf snap $HOME
+rm -rf snap
 fi
 echo
 echo

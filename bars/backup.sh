@@ -38,7 +38,7 @@ clear
 echo
 echo
 echo -e "       $grn Backup already exist please restore it or delete it$rset"
-sleep 2.0
+sleep 8.0
 cd $HOME
 cd snap
 bash snap.sh
@@ -55,14 +55,15 @@ cd toss
 mkdir snapbackup
 cd $HOME
 cp -rf * $HOME/toss/snapbackup
-cd toss/snapbackup
+cd toss
+cd snapbackup
 rm -rf toss
 cd $HOME/toss
 mv snapbackup /sdcard
 cd $HOME
 rm bash.bashrc
 rm -rf toss
-cd sdcard/snapbackup
+cd /sdcard/snapbackup
 rm -rf snap
 fi
 echo

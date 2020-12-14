@@ -62,12 +62,11 @@ cd $HOME
 rm bash.bashrc
 rm -rf toss
 cd sdcard/snapbackup
-cp -r snap $HOME
-cd $HOME/snap
+rm -rf snap $HOME
 fi
 echo
 echo
 echo -e "               $grn Backup successfull....$rset"
-sleep 3.0
+sleep 6.0
 cd $HOME/snap
 bash snap.sh

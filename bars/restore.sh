@@ -33,12 +33,11 @@ echo -e "          $red Restoring progress started please wait......$rset"
 sleep 2.0
 echo " "
 clear
-termux-setup-storage
 cd /sdcard
 mv snapbackup $HOME
 cd $HOME
 cd snapbackup
-mv -rf * $HOME
+mv * $HOME
 cd $HOME
 mv bash.bashrc /data/data/com.termux/files/usr/etc
 cd $HOME
@@ -50,7 +49,7 @@ echo
 echo -e "              $grn Restoring Completed sir........$rset"
 echo
 echo
-sleep 3.0
+sleep 8.0
 cd $HOME
 cd snap
 bash snap.sh

@@ -49,26 +49,25 @@ cd usr
 cd etc
 cp bash.bashrc $HOME
 cd $HOME
-cd snap
-cd bars
-cd $HOME
+mkdir toss
+cd toss
 mkdir snapbackup
-cp -rf * snapbackup
-cd snapbackup
-rm -rf snapbackup
 cd $HOME
-rm  bash.bashrc
-cd $HOME
+cp -rf * $HOME/toss/snapbackup
+cd toss/snapbackup
+rm -rf toss
+cd $HOME/toss
 mv snapbackup /sdcard
-cd sdcard/snapbackup
-rm -rf snap
 cd $HOME
-rm -rf snapbackup
+rm bash.bashrc
+rm -rf toss
+cd sdcard/snapbackup
+cp -r snap $HOME
+cd $HOME/snap
 fi
 echo
 echo
 echo -e "               $grn Backup successfull....$rset"
 sleep 3.0
-cd $HOME
-cd snap
+cd $HOME/snap
 bash snap.sh

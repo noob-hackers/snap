@@ -26,6 +26,9 @@
 
 Snap is a bash based script for zsh based termux and from this tool you can do many things like backup termux and restoring backups and etc.. this tool works on both rooted and non-rooted devices so you can use it wihtout any issues.
 
+<p align="center"><a href="https://rebrand.ly/noobhacktube"><img title="Noob Hackers" src="https://user-images.githubusercontent.com/49580304/117566254-31801e00-b0d3-11eb-860d-5601b1adccb8.jpg"></a>
+</p>
+
 ## AVAILABLE ON :
 
 * Termux

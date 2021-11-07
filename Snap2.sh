@@ -262,7 +262,7 @@ while $InLoop; do
 					ConsoleClear
 					WindowSetTitle "Snap! [Update-It!]"
 					DrawWindow
-					
+					WindowWrite 5 1 "[Update]: Heya! There might be issue's updating you can check out github and update from there!"
 					;;
 				3)
 					ConsoleClear
@@ -284,32 +284,3 @@ done
 #HighLight 4  "[3]: Update-it!"
 #HighLight 5  "[4]: Exit-It!"
 # #HighLight 6 "Exit-It!"# #
-
-
-
-
-#while [[ ${Game} ]];  do
-#        #ConsoleClear
-#        read -t 0.5 -r -sn1 key
-#        case "${key}" in
-#                'A') { Locations["CursorY"]="$(( ${Locations[CursorY]} - 1 ))"; Cursor='A'; } ;;
-#                'B') { Locations["CursorY"]="$(( ${Locations[CursorY]} + 1 ))"; Cursor='B'; } ;;
-#                'C') { Locations["CursorX"]="$(( ${Locations[CursorX]} + 1 ))"; Cursor='C'; } ;;
-#                'D') { Locations["CursorX"]="$(( ${Locations[CursorX]} - 1 ))"; Cursor='D'; } ;;
-#                'q') { printf "\e[?25h"; exit; } ;; # Quit and re-enable cursor
-#                *)
-#                        if [[ -z "${key}" ]]; then
-#                        case "${Cursor}" in
-#                                'A') { Locations["CursorY"]="$(( ${Locations[CursorY]} - 1 ))"; Cursor='A'; } ;;
-#                                'B') { Locations["CursorY"]="$(( ${Locations[CursorY]} + 1 ))"; Cursor='B'; } ;;
-#                                'C') { Locations["CursorX"]="$(( ${Locations[CursorX]} + 1 ))"; Cursor='C'; } ;;
-#                                'D') { Locations["CursorX"]="$(( ${Locations[CursorX]} - 1 ))"; Cursor='D'; } ;;
-#                        esac
-#                        fi
-#                ;;
-#        esac
-#        ConsoleClear
-#        DetectHit 5 10
-#        DetectFinish 20 3
-#        echo -ne "\e[${Locations[CursorY]};${Locations[CursorX]}H${Cursor}"
-#done

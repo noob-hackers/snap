@@ -223,7 +223,7 @@ while $InLoop; do
 					ConsoleClear
 					WindowSetTitle "Snap! [Back-It-Up!]"
 					DrawWindow
-					WindowWrite 4 1 "Checking for saved BackUp's"
+					WindowWrite 4 1 "Checking for saved Backup's"
 					if [[ -d "${SaveFolder}" ]]; then
 						WindowWrite 5 1 "Woop's! there is already a saved BackUp!"
 					else
@@ -231,7 +231,7 @@ while $InLoop; do
 						Num=5
 						for a in $HOME/* ; do
 							((Num++))
-							WindowWrite "${Num}" 1 "${a} > ${SaveFolder}"
+							WindowWrite "${Num}" 1 "[BackUp]: ${a} > ${SaveFolder}"
 							if [[ ! -h "${a}" ]]; then
 								cp -r "${a}" "${SaveFolder}" 2>/dev/null
 							fi
@@ -242,6 +242,20 @@ while $InLoop; do
 					ConsoleClear
 					WindowSetTitle "Snap! [Restore-It!]"
 					DrawWindow
+					if [[ ! -d "${SaveFolder}" ]]; then
+						WindowWrite 5 1 "Woop's mate you don't have a backup!"
+					else
+						Num=5
+						for a in "${SaveFolder}"/*; do
+							((Num++))
+							cp -r  ${a} $HOME 2>/dev/null
+							WindowWrite "${Num}" 1 "[Respore]: ${SaveFolder} > ${a}" 
+						done
+						if [[ -d "${SaveFolder}" ]]; then
+							rm -rf "${SaveFolder}"
+						fi
+						
+					fi
 					
 					;;
 				2)

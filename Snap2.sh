@@ -252,8 +252,11 @@ while $InLoop; do
 					;;
 				3)
 					ConsoleClear
-					WindowSetTitle "Snap! [Exit-It!]"
+					WindowSetTitle "GoodBye!"
 					DrawWindow
+					DrawLogo
+					echo -e "\n\n\n"
+					exit 0
 					
 					;;
 			esac

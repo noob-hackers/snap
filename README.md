@@ -50,24 +50,13 @@ Snap is a bash based script for zsh based termux and from this tool you can do m
 * [+] Perfect tool for termux !
 
 ## INSTALLATION [Termux] :
+``` Bash
+git clone REPO
+cd snap
+bash Snap2.sh
+```
+That easy!
 
-* `apt-get update -y`
-* `apt-get upgrade -y`
-* `pkg install python -y`
-* `pkg install python2 -y`
-* `pkg install git -y`
-* `pip install lolcat`
-* `git clone https://github.com/noob-hackers/snap`
-* `cd $HOME`
-* `ls`
-* `cd snap`
-* `ls`
-* `bash snap.sh`
-```
-[+]-- Now you need internet connection to continue further process...
-[+]-- You can select any option by clicking on your keyboard
-[+]-- Note:- Don't delete any of the scripts included in bars directory (folder)
-```
 ## USAGE OPTIONS [Termux] :
 
 __TERMUX BACKUP__ :
@@ -86,13 +75,8 @@ __EXIT__ :
 
 <br>
 <p align="center">
-<img width="45%" src="https://user-images.githubusercontent.com/49580304/96559530-071f5e00-1272-11eb-9153-cba6fe3b8e61.jpg"/>
-<img width="50%" src="https://user-images.githubusercontent.com/49580304/96559538-08508b00-1272-11eb-8cf5-b145d5c7b758.jpg"/>
+<img src=".images/usage.png"/>
 </p>
-
-## WATCH VIDEO [Termux]
-
-[![des](https://user-images.githubusercontent.com/49580304/96466915-3c2ea080-11df-11eb-8328-100ca165c12c.jpg)](https://rebrand.ly/rcentvideo)
 
 ## CONNECT WITH US :
 
@@ -115,3 +99,6 @@ __EXIT__ :
 
 ## WARNING : 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
+
+## Extra
+* updated by Oak Atsume

@@ -51,23 +51,16 @@ Snap is a bash based script for zsh based termux and from this tool you can do m
 
 ## INSTALLATION [Termux] :
 
-* `apt-get update -y`
-* `apt-get upgrade -y`
-* `pkg install python -y`
-* `pkg install python2 -y`
-* `pkg install git -y`
-* `pip install lolcat`
-* `git clone https://github.com/noob-hackers/snap`
-* `cd $HOME`
-* `ls`
-* `cd snap`
-* `ls`
-* `bash snap.sh`
+```
+apt update -y && apt upgrade -y && apt install python3 -y && apt install git -y && pip install lolcat && git clone https://github.com/noob-hackers/snap && cd $HOME && ls && cd snap && bash snap.sh
+```
+
 ```
 [+]-- Now you need internet connection to continue further process...
 [+]-- You can select any option by clicking on your keyboard
 [+]-- Note:- Don't delete any of the scripts included in bars directory (folder)
 ```
+
 ## USAGE OPTIONS [Termux] :
 
 __TERMUX BACKUP__ :
